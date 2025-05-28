@@ -25,6 +25,7 @@ public class Authservice extends BaseService{
 	public Response forgotpasswprd(String emailadress)
 	{
 		HashMap<String ,String> payload=new HashMap<String,String>();
+		payload.put("email", emailadress);
 		return postrequest(payload,BASE_PATH+"forgot-password");
 	}
 

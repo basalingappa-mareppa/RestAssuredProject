@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="loginapi.ForgotPassword">
+      <class name="loginapi.GetProfileTest">
         <methods>
-          <include name="forgotpassword"/>
+          <include name="getprofile"/>
         </methods>
-      </class> <!-- loginapi.ForgotPassword -->
+      </class> <!-- loginapi.GetProfileTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

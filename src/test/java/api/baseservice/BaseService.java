@@ -23,4 +23,14 @@ public class BaseService {
 	{
 		return requestspecification.contentType(ContentType.JSON).body(payload).post(endpoint);
 	}
+	
+	protected Response getrequest(String endpoint)
+	{
+		return requestspecification.get(endpoint);
+	}
+	
+	protected void setauthtoken(String token)
+	{
+		requestspecification.header("Authorization","Bearer "+token);
+	}
 }

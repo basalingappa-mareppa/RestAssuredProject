@@ -9,11 +9,11 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">3,786</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">7,823</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">loginapi.ForgotPassword</td><td><a href="#m0">forgotpassword</a></td><td rowspan="1">1748441615614</td><td rowspan="1">3735</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">loginapi.GetProfileTest</td><td><a href="#m0">getprofile</a></td><td rowspan="1">1748445074560</td><td rowspan="1">7739</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">loginapi.ForgotPassword#forgotpassword</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.net.ConnectException: Connection refused: connect
+<h2>Default test</h2><h3 id="m0">loginapi.GetProfileTest#getprofile</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.net.ConnectException: Connection refused: connect
 	at java.base/sun.nio.ch.Net.connect0(Native Method)
 	at java.base/sun.nio.ch.Net.connect(Net.java:589)
 	at java.base/sun.nio.ch.Net.connect(Net.java:578)
@@ -107,8 +107,8 @@
 	at io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy:176)
 	at io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy)
 	at api.baseservice.BaseService.postrequest(BaseService.java:24)
-	at api.baseservice.Authservice.forgotpasswprd(Authservice.java:28)
-	at loginapi.ForgotPassword.forgotpassword(ForgotPassword.java:14)
+	at api.baseservice.Authservice.login(Authservice.java:17)
+	at loginapi.GetProfileTest.getprofile(GetProfileTest.java:19)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
