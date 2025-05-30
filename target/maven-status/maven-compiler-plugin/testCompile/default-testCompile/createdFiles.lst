@@ -1,0 +1,13 @@
+loginapi\ForgotPassword.class
+api\baseservice\UserManageMnetService.class
+com\api\model\request\LogiRequest.class
+loginapi\GetProfileTest.class
+api\baseservice\BaseService.class
+com\api\filters\LoggingFilters.class
+api\baseservice\Authservice.class
+com\api\model\request\SignupRequest.class
+com\api\lesteners\ListenersTest.class
+com\api\model\response\LoginResponse.class
+loginapi\Accountcreation.class
+com\api\model\request\SignupRequest$Builder.class
+loginapi\Logintest.class

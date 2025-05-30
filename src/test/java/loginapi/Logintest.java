@@ -1,5 +1,6 @@
 package loginapi;
 
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.api.model.request.LogiRequest;
@@ -8,6 +9,8 @@ import com.api.model.response.LoginResponse;
 import api.baseservice.Authservice;
 import io.restassured.response.Response;
 
+
+@Listeners(com.api.lesteners.ListenersTest.class)
 public class Logintest {
 
 	

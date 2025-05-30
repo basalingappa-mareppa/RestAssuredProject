@@ -1,0 +1,18 @@
+13:00:10.693 [main] INFO  com.api.lesteners.ListenersTest - the test started
+13:00:10.743 [main] INFO  com.api.lesteners.ListenersTest - the suite started!!login
+13:00:12.954 [main] INFO  com.api.lesteners.ListenersTest - the test suite completed
+13:02:42.945 [main] INFO  com.api.lesteners.ListenersTest - the test started
+13:02:42.989 [main] INFO  com.api.lesteners.ListenersTest - the suite started!!login
+13:02:44.926 [main] INFO  com.api.lesteners.ListenersTest - the test suite completed
+13:21:43.870 [main] INFO  com.api.lesteners.ListenersTest - the test started
+13:21:43.916 [main] INFO  com.api.lesteners.ListenersTest - the suite started!!login
+13:21:45.591 [main] INFO  com.api.lesteners.ListenersTest - the test suite completed
+13:21:45.595 [main] INFO  com.api.lesteners.ListenersTest - the suite started!!getprofile
+13:21:45.801 [main] INFO  com.api.lesteners.ListenersTest - the test failed!!
+13:21:45.803 [main] INFO  com.api.lesteners.ListenersTest - the suite started!!acountcreation
+13:21:45.898 [main] INFO  com.api.lesteners.ListenersTest - the test suite completed
+13:21:45.899 [main] INFO  com.api.lesteners.ListenersTest - the suite started!!forgotpassword
+13:21:45.990 [main] INFO  com.api.lesteners.ListenersTest - the test suite completed
+13:39:32.122 [main] INFO  com.api.lesteners.ListenersTest - the test started
+13:39:32.169 [main] INFO  com.api.lesteners.ListenersTest - the suite started!!login
+13:39:34.311 [main] INFO  com.api.lesteners.ListenersTest - the test suite completed
